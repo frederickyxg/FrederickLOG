@@ -6,14 +6,79 @@ site_description: Lazy……
 
 #导航树设置
 nav:
-  - HOME: 
-    - "index.md"
+  - HOME: "index.md"
   - NBU-NOTES: 
     - "NBU-NOTES/index.md"
     - "NBU-NOTES/signal and system.md"
+  - Tools:
+    - "tools_for_mylog/Markdown Learning.md"
 
 
+# 更加强大的markdown支持
+markdown_extensions:
+  - pymdownx.arithmatex: # 渲染块和内联块方程
+      generic: true
+  - pymdownx.critic:
+      mode: view
+      # mode: accept
+      # mode: reject
+  - pymdownx.emoji: #慎用，不然开飞机
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji      
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.betterem #加强对特殊字符的识别
+  - pymdownx.blocks.caption #向任何markdown块添加标题
+  - pymdownx.critic #下划线、高光等
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_javascript:
+  - javascripts/mathjax.js # 公式输入支持
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+
+# 主题配置
 theme:
   name: material
+  favicon: img/favicon.ico
+  language: zh
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
 
 
+# 一些功能
+  features:
+    - search.highlight #搜索结果高亮
+    - toc.follow #目录跟随
+
+# 插件配置
+  plugins:
+    - search:
+        separator: '[\s\-\.]+'
+        lang:
+          - en
+          - zh
+
+          
+    - statistics:
+        page_template: "page_tools/page_statistics.html"
+        words_per_minute: 180
