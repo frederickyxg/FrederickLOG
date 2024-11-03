@@ -44,7 +44,7 @@ extra_javascript:
 # 主题配置
 theme:
   name: material
-  favicon: img/favicon.ico
+  favicon: img/icons/favicon.ico
   language: zh
   font:
     text: Roboto
