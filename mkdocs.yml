@@ -61,7 +61,7 @@ theme:
   favicon: img/icons/favicon.ico
   # 站点语言
   language: zh
-  custom_dir: docs\overrides
+  custom_dir: docs/overrides
 
   # 字体
   font:
