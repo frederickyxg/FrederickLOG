@@ -33,7 +33,7 @@ markdown_extensions:
   - pymdownx.emoji: #慎用，不然开飞机
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      emoji_index: !!python/name:material.extensions.emoji.twemoji      
+   
   - pymdownx.tasklist: #可以打钩的任务列表
       custom_checkbox: true
       clickable_checkbox: true
