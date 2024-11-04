@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # quick search for md
 ## basic grammar
 | elements | markdown grammar |
