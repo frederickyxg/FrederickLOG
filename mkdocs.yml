@@ -17,6 +17,11 @@ nav:
       - "tools_for_mylog/markdown/quick search for md.md"
     - mkdocs:
       - "tools_for_mylog/mkdocs/official doc.md"
+  - FreeWriting:
+    - 团建:
+      - "freewriting/团建/团建小游戏.md"
+
+
 
 # 更加强大的markdown支持 by pymdownx
 markdown_extensions:
@@ -90,7 +95,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: orange
+      primary: black
       toggle:
         icon: material/brightness-3
         name: Switch to light mode
@@ -146,7 +151,7 @@ theme:
      - statistics:
         page_template: "page_template/page_statistics.html"
         words_per_minute: 180
-        page_check_metadata: comment
+        #page_check_metadata: comment
   extra:
     social:
       - icon: fontawesome/brands/github
