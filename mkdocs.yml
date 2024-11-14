@@ -9,7 +9,8 @@ nav:
   - HOME: "index.md"
   - NBU-NOTES: 
     - "NBU-NOTES/index.md"
-    - "NBU-NOTES/signal and system.md"
+    - "NBU-NOTES/信号与系统/signal and system.md"
+    - "NBU-NOTES/单片机/MCU.md"
     - "NBU-NOTES/pdfdemo.md"
     - "NBU-NOTES/个人计划.pdf"
   - Tools:

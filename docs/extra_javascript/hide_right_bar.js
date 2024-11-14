@@ -1,6 +1,6 @@
 window.addEventListener("load", function() {
     // 定义需要隐藏右侧目录的页面路径片段
-    var hiddenSidebarPages = ["pdfdemo"];
+    var hiddenSidebarPages = ["pdfdemo","signal%20and%20system","MCU"];
     
     // 获取当前页面的 URL 路径
     var currentPath = window.location.pathname;
