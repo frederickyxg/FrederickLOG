@@ -10,6 +10,8 @@ nav:
   - NBU-NOTES: 
     - "NBU-NOTES/index.md"
     - "NBU-NOTES/signal and system.md"
+    - "NBU-NOTES/pdfdemo.md"
+    - "NBU-NOTES/个人计划.pdf"
   - Tools:
     - markdown:
       - "tools_for_mylog/markdown/index.md"
@@ -25,6 +27,14 @@ nav:
 
 # 更加强大的markdown支持 by pymdownx
 markdown_extensions:
+  - abbr
+  # ...some extensions
+  # - pymdownx.pathconverter:
+  #     base_path: '' # default: ''
+  #     relative_path: '' # default ''
+  #     absolute: false # default: false
+  #     tags: 'a script img link object embed'
+
   - toc:
       permalink: True
       toc_depth: 4
@@ -64,9 +74,9 @@ markdown_extensions:
 
 
 extra_javascript:
-  - javascripts/mathjax.js # 公式输入支持
+  - extra_javascripts/mathjax.js # 公式输入支持
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
+  - extra_javascript/hide_right_bar.js
 
 # 主题配置
 theme:
@@ -143,6 +153,7 @@ theme:
 
 # 插件配置
   plugins:
+     - with-pdf
      - search:
         separator: '[\s\-\.]+'
         lang:
