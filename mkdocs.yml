@@ -20,7 +20,7 @@ nav:
       - "tools_for_mylog/markdown/quick search for md.md"
     - mkdocs:
       - "tools_for_mylog/mkdocs/official doc.md"
-  - FreeWriting
+  - FreeWriting:
     - 团建:
       - "freewriting/团建/团建小游戏.md"
 
