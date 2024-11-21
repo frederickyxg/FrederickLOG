@@ -21,8 +21,8 @@ nav:
     - mkdocs:
       - "tools_for_mylog/mkdocs/official doc.md"
   - FreeWriting
-    #- 团建:
-    #  - "freewriting/团建/团建小游戏.md"
+    - 团建:
+      - "freewriting/团建/团建小游戏.md"
 
 
 
